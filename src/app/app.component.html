@@ -1,0 +1,13 @@
+<trending-custom-line-chart
+    [results]="chartData"
+    [xAxis]="true" 
+    [yAxis]="true"
+    [xScaleMin]="from"
+    [xScaleMax]="to"
+    [xAxisTickFormatting]="xAxisTickFormatting.bind(this)"
+    [yAxisTickFormatting]="yAxisTickFormatting.bind(this)"
+    [autoScale]="true"
+    [curve]="interpolationFunction"
+    [customColors]="customColors"
+    [animations]="false">
+</trending-custom-line-chart>
